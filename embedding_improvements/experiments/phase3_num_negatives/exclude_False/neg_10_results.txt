@@ -1,0 +1,430 @@
+./experiments/phase3_num_negatives/exclude_False: Loading best model from ./experiments/phase3_num_negatives/exclude_False/neg_10.pth...
+✅ Loaded embeddings for 454 words
+
+================================================================================
+EMBEDDING ANALYSIS
+================================================================================
+
+Vocabulary: 454  Embedding dim: 512
+
+Similarity stats (100 word sample):
+  Mean: 0.9973  Std: 0.0005
+  Min: 0.9952  Max: 0.9992
+
+================================================================================
+NEAREST NEIGHBORS
+================================================================================
+
+Most similar to 'man':
+  red              similarity=0.9979
+  person           similarity=0.9979
+  orange           similarity=0.9979
+  woman            similarity=0.9978
+  large            similarity=0.9978
+  two              similarity=0.9978
+  yellow           similarity=0.9978
+  building         similarity=0.9978
+
+Most similar to 'woman':
+  man              similarity=0.9978
+  person           similarity=0.9977
+  table            similarity=0.9977
+  metal            similarity=0.9976
+  are              similarity=0.9976
+  door             similarity=0.9976
+  small            similarity=0.9976
+  pink             similarity=0.9976
+
+Most similar to 'child':
+  and              similarity=0.9977
+  large            similarity=0.9977
+  orange           similarity=0.9977
+  metal            similarity=0.9977
+  hanging          similarity=0.9976
+  building         similarity=0.9976
+  small            similarity=0.9976
+  big              similarity=0.9975
+
+Most similar to 'boy':
+  man              similarity=0.9974
+  person           similarity=0.9974
+  behind           similarity=0.9974
+  door             similarity=0.9974
+  large            similarity=0.9974
+  table            similarity=0.9973
+  small            similarity=0.9973
+  face             similarity=0.9973
+
+Most similar to 'girl':
+  person           similarity=0.9977
+  table            similarity=0.9976
+  man              similarity=0.9976
+  woman            similarity=0.9975
+  train            similarity=0.9975
+  large            similarity=0.9975
+  orange           similarity=0.9974
+  building         similarity=0.9974
+
+Most similar to 'person':
+  man              similarity=0.9979
+  leaf             similarity=0.9978
+  table            similarity=0.9977
+  board            similarity=0.9977
+  door             similarity=0.9977
+  woman            similarity=0.9977
+  orange           similarity=0.9977
+  parking          similarity=0.9977
+
+Most similar to 'tree':
+  sign             similarity=0.9977
+  building         similarity=0.9977
+  large            similarity=0.9976
+  door             similarity=0.9976
+  two              similarity=0.9976
+  man              similarity=0.9976
+  person           similarity=0.9976
+  small            similarity=0.9976
+
+Most similar to 'building':
+  large            similarity=0.9981
+  chair            similarity=0.9980
+  wall             similarity=0.9980
+  small            similarity=0.9979
+  color            similarity=0.9979
+  light            similarity=0.9979
+  metal            similarity=0.9979
+  car              similarity=0.9979
+
+Most similar to 'sky':
+  table            similarity=0.9976
+  chair            similarity=0.9974
+  sheep            similarity=0.9974
+  sign             similarity=0.9973
+  window           similarity=0.9973
+  color            similarity=0.9973
+  train            similarity=0.9972
+  house            similarity=0.9972
+
+Most similar to 'street':
+  small            similarity=0.9979
+  color            similarity=0.9978
+  large            similarity=0.9978
+  door             similarity=0.9978
+  building         similarity=0.9978
+  two              similarity=0.9978
+  board            similarity=0.9978
+  behind           similarity=0.9977
+
+Most similar to 'car':
+  large            similarity=0.9980
+  light            similarity=0.9979
+  metal            similarity=0.9979
+  are              similarity=0.9979
+  hanging          similarity=0.9979
+  building         similarity=0.9979
+  color            similarity=0.9979
+  chair            similarity=0.9979
+
+Most similar to 'table':
+  metal            similarity=0.9979
+  large            similarity=0.9979
+  color            similarity=0.9979
+  door             similarity=0.9979
+  sign             similarity=0.9978
+  and              similarity=0.9978
+  light            similarity=0.9978
+  train            similarity=0.9978
+
+Most similar to 'red':
+  is               similarity=0.9986
+  with             similarity=0.9986
+  white            similarity=0.9986
+  a                similarity=0.9986
+  the              similarity=0.9986
+  yellow           similarity=0.9985
+  in               similarity=0.9985
+  of               similarity=0.9985
+
+Most similar to 'blue':
+  a                similarity=0.9987
+  with             similarity=0.9986
+  white            similarity=0.9986
+  is               similarity=0.9986
+  the              similarity=0.9985
+  in               similarity=0.9985
+  and              similarity=0.9985
+  red              similarity=0.9984
+
+Most similar to 'green':
+  a                similarity=0.9986
+  of               similarity=0.9986
+  the              similarity=0.9986
+  in               similarity=0.9986
+  white            similarity=0.9985
+  on               similarity=0.9985
+  are              similarity=0.9985
+  with             similarity=0.9985
+
+Most similar to 'black':
+  on               similarity=0.9989
+  is               similarity=0.9988
+  a                similarity=0.9988
+  white            similarity=0.9988
+  the              similarity=0.9988
+  with             similarity=0.9988
+  in               similarity=0.9988
+  of               similarity=0.9987
+
+Most similar to 'white':
+  a                similarity=0.9990
+  the              similarity=0.9989
+  on               similarity=0.9989
+  in               similarity=0.9989
+  with             similarity=0.9988
+  black            similarity=0.9988
+  is               similarity=0.9988
+  of               similarity=0.9988
+
+Most similar to 'wooden':
+  white            similarity=0.9981
+  with             similarity=0.9980
+  is               similarity=0.9980
+  has              similarity=0.9980
+  small            similarity=0.9980
+  in               similarity=0.9980
+  large            similarity=0.9979
+  and              similarity=0.9979
+
+Most similar to 'metal':
+  has              similarity=0.9983
+  are              similarity=0.9983
+  large            similarity=0.9983
+  small            similarity=0.9982
+  is               similarity=0.9982
+  of               similarity=0.9982
+  behind           similarity=0.9982
+  and              similarity=0.9982
+
+Most similar to 'walking':
+  is               similarity=0.9980
+  white            similarity=0.9980
+  standing         similarity=0.9979
+  large            similarity=0.9979
+  with             similarity=0.9978
+  a                similarity=0.9978
+  metal            similarity=0.9978
+  are              similarity=0.9978
+
+Most similar to 'sitting':
+  white            similarity=0.9982
+  in               similarity=0.9982
+  is               similarity=0.9982
+  on               similarity=0.9982
+  with             similarity=0.9981
+  has              similarity=0.9981
+  the              similarity=0.9981
+  small            similarity=0.9981
+
+Most similar to 'holding':
+  the              similarity=0.9980
+  white            similarity=0.9980
+  of               similarity=0.9980
+  in               similarity=0.9980
+  with             similarity=0.9980
+  is               similarity=0.9980
+  has              similarity=0.9980
+  a                similarity=0.9980
+
+Most similar to 'riding':
+  large            similarity=0.9978
+  behind           similarity=0.9978
+  is               similarity=0.9977
+  in               similarity=0.9977
+  metal            similarity=0.9977
+  at               similarity=0.9977
+  small            similarity=0.9977
+  with             similarity=0.9976
+
+Most similar to 'standing':
+  has              similarity=0.9983
+  and              similarity=0.9982
+  large            similarity=0.9982
+  in               similarity=0.9982
+  with             similarity=0.9982
+  white            similarity=0.9982
+  is               similarity=0.9982
+  a                similarity=0.9981
+
+Most similar to 'water':
+  building         similarity=0.9976
+  orange           similarity=0.9976
+  standing         similarity=0.9976
+  train            similarity=0.9976
+  tall             similarity=0.9976
+  door             similarity=0.9975
+  small            similarity=0.9975
+  dark             similarity=0.9975
+
+Most similar to 'grass':
+  small            similarity=0.9977
+  building         similarity=0.9977
+  color            similarity=0.9977
+  train            similarity=0.9977
+  light            similarity=0.9977
+  face             similarity=0.9977
+  large            similarity=0.9977
+  chair            similarity=0.9977
+
+Most similar to 'sand':
+  building         similarity=0.9976
+  standing         similarity=0.9976
+  large            similarity=0.9976
+  color            similarity=0.9976
+  ground           similarity=0.9976
+  door             similarity=0.9975
+  leaf             similarity=0.9975
+  frame            similarity=0.9975
+
+Most similar to 'snow':
+  two              similarity=0.9977
+  building         similarity=0.9977
+  car              similarity=0.9977
+  table            similarity=0.9977
+  small            similarity=0.9977
+  and              similarity=0.9977
+  color            similarity=0.9976
+  light            similarity=0.9976
+
+Most similar to 'wall':
+  building         similarity=0.9980
+  car              similarity=0.9978
+  buildings        similarity=0.9978
+  color            similarity=0.9977
+  train            similarity=0.9977
+  are              similarity=0.9977
+  parking          similarity=0.9976
+  kite             similarity=0.9976
+
+================================================================================
+WORD ANALOGIES (a:b :: c:?)
+================================================================================
+
+red:apple :: yellow:?
+  large            score=0.9960
+  small            score=0.9960
+  jacket           score=0.9959
+
+blue:sky :: green:?
+  table            score=0.9963
+  chair            score=0.9962
+  are              score=0.9961
+
+white:snow :: brown:?
+  man              score=0.9968
+  person           score=0.9966
+  baseball         score=0.9966
+
+man:woman :: boy:?
+  door             score=0.9954
+  table            score=0.9953
+  behind           score=0.9952
+
+boy:girl :: man:?
+  wheel            score=0.9954
+  person           score=0.9954
+  orange           score=0.9953
+
+person:hat :: hand:?
+  chair            score=0.9952
+  bowl             score=0.9951
+  tie              score=0.9951
+
+long:short :: tall:?
+  big              score=0.9959
+  metal            score=0.9959
+  table            score=0.9958
+
+one:two :: three:?
+  are              score=0.9955
+  and              score=0.9953
+  yellow           score=0.9953
+
+dog:walking :: cat:?
+  is               score=0.9952
+  metal            score=0.9952
+  hanging          score=0.9952
+
+person:riding :: boat:?
+  wearing          score=0.9959
+  small            score=0.9959
+  large            score=0.9957
+
+pizza:eating :: umbrella:?
+  car              score=0.9942
+  and              score=0.9942
+  are              score=0.9940
+
+metal:car :: wooden:?
+  hanging          score=0.9961
+  window           score=0.9960
+  large            score=0.9960
+
+water:boat :: road:?
+  person           score=0.9947
+  color            score=0.9946
+  car              score=0.9945
+
+================================================================================
+SEMANTIC CLUSTERS
+================================================================================
+
+'red': is, with, white, a, the
+
+'blue': a, with, white, is, the
+
+'green': a, of, the, in, white
+
+'man': red, person, orange, woman, large
+
+'woman': man, person, table, metal, are
+
+'child': and, large, orange, metal, hanging
+
+'dog': color, chair, sandwich, clock, car
+
+'cat': metal, building, are, large, tall
+
+'horse': bear, person, table, building, door
+
+'bird': chair, table, car, building, large
+
+'building': large, chair, wall, small, color
+
+'house': car, hanging, building, orange, chair
+
+'street': small, color, large, door, building
+
+'sky': table, chair, sheep, sign, window
+
+'clouds': sheep, flowers, baseball, window, train
+
+'water': building, orange, standing, train, tall
+
+'grass': small, building, color, train, light
+
+'car': large, light, metal, are, hanging
+
+'bus': are, car, door, metal, train
+
+'bicycle': building, large, car, baseball, small
+
+'train': are, small, metal, table, chair
+
+================================================================================
+
+================================================================================
+VISUALIZING EMBEDDINGS
+================================================================================
+Generating t-SNE plot for the top 300 words...
+(This may take a moment...)
+Saved t-SNE to ./experiments/phase3_num_negatives/exclude_False/neg_10_tsne.png

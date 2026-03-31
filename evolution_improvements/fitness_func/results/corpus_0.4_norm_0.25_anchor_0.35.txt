@@ -1,0 +1,22 @@
+Signal to Noise Metric: -0.2290
+
+================================================================================
+EMBEDDING ANALYSIS
+================================================================================
+
+Vocabulary: 523  Embedding dim: 512
+
+Similarity stats (100 word sample):
+  Mean: 0.4703  Std: 0.0875
+  Min: 0.2249  Max: 0.9233
+
+================================================================================
+
+================================================================================
+VISUALIZING EMBEDDINGS
+================================================================================
+Generating t-SNE plot for the top 300 words...
+(This may take a moment...)
+
+Generating t-SNE visualization with inserted words...
+✓ Saved t-SNE to ./fitness_func/results/corpus_0.4_norm_0.25_anchor_0.35_tsne.png

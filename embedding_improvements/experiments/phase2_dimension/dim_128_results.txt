@@ -1,0 +1,430 @@
+./experiments/phase2_dimension: Loading best model from ./experiments/phase2_dimension/dim_128.pth...
+✅ Loaded embeddings for 454 words
+
+================================================================================
+EMBEDDING ANALYSIS
+================================================================================
+
+Vocabulary: 454  Embedding dim: 128
+
+Similarity stats (100 word sample):
+  Mean: 0.9808  Std: 0.0152
+  Min: 0.9175  Max: 0.9984
+
+================================================================================
+NEAREST NEIGHBORS
+================================================================================
+
+Most similar to 'man':
+  woman            similarity=0.9965
+  person           similarity=0.9956
+  girl             similarity=0.9954
+  boy              similarity=0.9951
+  people           similarity=0.9943
+  player           similarity=0.9940
+  lady             similarity=0.9939
+  sheep            similarity=0.9937
+
+Most similar to 'woman':
+  man              similarity=0.9965
+  girl             similarity=0.9956
+  boy              similarity=0.9953
+  snow             similarity=0.9953
+  person           similarity=0.9952
+  player           similarity=0.9947
+  zebra            similarity=0.9946
+  giraffe          similarity=0.9946
+
+Most similar to 'child':
+  player           similarity=0.9959
+  lady             similarity=0.9955
+  skis             similarity=0.9953
+  guy              similarity=0.9953
+  skier            similarity=0.9952
+  tower            similarity=0.9951
+  wire             similarity=0.9950
+  boy              similarity=0.9949
+
+Most similar to 'boy':
+  girl             similarity=0.9966
+  lady             similarity=0.9958
+  snow             similarity=0.9954
+  woman            similarity=0.9953
+  man              similarity=0.9951
+  player           similarity=0.9951
+  child            similarity=0.9949
+  skier            similarity=0.9949
+
+Most similar to 'girl':
+  boy              similarity=0.9966
+  lady             similarity=0.9957
+  woman            similarity=0.9956
+  man              similarity=0.9954
+  player           similarity=0.9948
+  giraffe          similarity=0.9947
+  snow             similarity=0.9946
+  person           similarity=0.9945
+
+Most similar to 'person':
+  man              similarity=0.9956
+  woman            similarity=0.9952
+  girl             similarity=0.9945
+  boy              similarity=0.9943
+  people           similarity=0.9934
+  bear             similarity=0.9926
+  giraffe          similarity=0.9925
+  sheep            similarity=0.9925
+
+Most similar to 'tree':
+  background       similarity=0.9957
+  fence            similarity=0.9956
+  trees            similarity=0.9955
+  wall             similarity=0.9955
+  house            similarity=0.9953
+  banana           similarity=0.9951
+  plane            similarity=0.9950
+  surfboard        similarity=0.9949
+
+Most similar to 'building':
+  wall             similarity=0.9965
+  fence            similarity=0.9964
+  surfboard        similarity=0.9963
+  bench            similarity=0.9962
+  background       similarity=0.9960
+  bird             similarity=0.9958
+  horse            similarity=0.9958
+  table            similarity=0.9957
+
+Most similar to 'sky':
+  wall             similarity=0.9958
+  dog              similarity=0.9956
+  water            similarity=0.9956
+  background       similarity=0.9955
+  coat             similarity=0.9955
+  surfboard        similarity=0.9954
+  line             similarity=0.9954
+  table            similarity=0.9954
+
+Most similar to 'street':
+  bright           similarity=0.9959
+  line             similarity=0.9956
+  spoon            similarity=0.9956
+  tail             similarity=0.9955
+  roof             similarity=0.9955
+  ceiling          similarity=0.9954
+  lid              similarity=0.9954
+  house            similarity=0.9952
+
+Most similar to 'car':
+  motorcycle       similarity=0.9963
+  bus              similarity=0.9962
+  train            similarity=0.9960
+  boat             similarity=0.9959
+  coat             similarity=0.9957
+  surfboard        similarity=0.9956
+  skateboard       similarity=0.9956
+  helmet           similarity=0.9956
+
+Most similar to 'table':
+  wall             similarity=0.9966
+  fence            similarity=0.9962
+  background       similarity=0.9961
+  water            similarity=0.9960
+  boat             similarity=0.9960
+  snow             similarity=0.9959
+  box              similarity=0.9959
+  frisbee          similarity=0.9958
+
+Most similar to 'red':
+  blue             similarity=0.9975
+  brown            similarity=0.9970
+  green            similarity=0.9969
+  yellow           similarity=0.9967
+  orange           similarity=0.9965
+  gray             similarity=0.9964
+  black            similarity=0.9963
+  silver           similarity=0.9963
+
+Most similar to 'blue':
+  red              similarity=0.9975
+  yellow           similarity=0.9971
+  brown            similarity=0.9970
+  black            similarity=0.9969
+  green            similarity=0.9968
+  over             similarity=0.9963
+  orange           similarity=0.9962
+  colored          similarity=0.9962
+
+Most similar to 'green':
+  yellow           similarity=0.9971
+  red              similarity=0.9969
+  brown            similarity=0.9968
+  blue             similarity=0.9968
+  orange           similarity=0.9962
+  pink             similarity=0.9961
+  tan              similarity=0.9958
+  gray             similarity=0.9956
+
+Most similar to 'black':
+  white            similarity=0.9973
+  brown            similarity=0.9969
+  blue             similarity=0.9969
+  red              similarity=0.9963
+  a                similarity=0.9961
+  yellow           similarity=0.9961
+  is               similarity=0.9959
+  for              similarity=0.9959
+
+Most similar to 'white':
+  a                similarity=0.9975
+  is               similarity=0.9973
+  black            similarity=0.9973
+  the              similarity=0.9968
+  for              similarity=0.9968
+  next             similarity=0.9966
+  that             similarity=0.9963
+  above            similarity=0.9962
+
+Most similar to 'wooden':
+  metal            similarity=0.9954
+  silver           similarity=0.9954
+  tan              similarity=0.9954
+  red              similarity=0.9950
+  attached         similarity=0.9949
+  large            similarity=0.9948
+  orange           similarity=0.9947
+  beige            similarity=0.9945
+
+Most similar to 'metal':
+  wooden           similarity=0.9954
+  silver           similarity=0.9952
+  painted          similarity=0.9951
+  round            similarity=0.9947
+  colorful         similarity=0.9947
+  wood             similarity=0.9947
+  big              similarity=0.9947
+  attached         similarity=0.9946
+
+Most similar to 'walking':
+  standing         similarity=0.9960
+  skiing           similarity=0.9949
+  one              similarity=0.9948
+  flying           similarity=0.9948
+  riding           similarity=0.9946
+  out              similarity=0.9943
+  other            similarity=0.9940
+  playing          similarity=0.9939
+
+Most similar to 'sitting':
+  laying           similarity=0.9970
+  holding          similarity=0.9967
+  this             similarity=0.9962
+  by               similarity=0.9961
+  being            similarity=0.9958
+  looking          similarity=0.9956
+  and              similarity=0.9955
+  from             similarity=0.9953
+
+Most similar to 'holding':
+  sitting          similarity=0.9967
+  by               similarity=0.9963
+  at               similarity=0.9961
+  and              similarity=0.9961
+  under            similarity=0.9960
+  to               similarity=0.9960
+  from             similarity=0.9959
+  this             similarity=0.9958
+
+Most similar to 'riding':
+  playing          similarity=0.9956
+  carrying         similarity=0.9955
+  have             similarity=0.9952
+  looking          similarity=0.9951
+  inside           similarity=0.9950
+  sitting          similarity=0.9950
+  watching         similarity=0.9949
+  walking          similarity=0.9946
+
+Most similar to 'standing':
+  walking          similarity=0.9960
+  laying           similarity=0.9951
+  eating           similarity=0.9950
+  sitting          similarity=0.9950
+  looking          similarity=0.9949
+  riding           similarity=0.9945
+  playing          similarity=0.9942
+  watching         similarity=0.9940
+
+Most similar to 'water':
+  box              similarity=0.9964
+  wall             similarity=0.9963
+  snow             similarity=0.9962
+  lines            similarity=0.9962
+  table            similarity=0.9960
+  background       similarity=0.9958
+  vehicle          similarity=0.9958
+  skis             similarity=0.9957
+
+Most similar to 'grass':
+  fence            similarity=0.9955
+  building         similarity=0.9953
+  table            similarity=0.9952
+  dog              similarity=0.9950
+  giraffe          similarity=0.9950
+  trees            similarity=0.9950
+  wall             similarity=0.9949
+  water            similarity=0.9949
+
+Most similar to 'sand':
+  vehicle          similarity=0.9957
+  line             similarity=0.9954
+  food             similarity=0.9954
+  box              similarity=0.9954
+  house            similarity=0.9953
+  bread            similarity=0.9952
+  cup              similarity=0.9951
+  pot              similarity=0.9951
+
+Most similar to 'snow':
+  cake             similarity=0.9967
+  frisbee          similarity=0.9966
+  pizza            similarity=0.9965
+  vehicle          similarity=0.9964
+  horse            similarity=0.9963
+  plane            similarity=0.9962
+  water            similarity=0.9962
+  giraffe          similarity=0.9961
+
+Most similar to 'wall':
+  background       similarity=0.9973
+  fence            similarity=0.9972
+  table            similarity=0.9966
+  building         similarity=0.9965
+  skateboard       similarity=0.9964
+  box              similarity=0.9964
+  water            similarity=0.9963
+  vehicle          similarity=0.9961
+
+================================================================================
+WORD ANALOGIES (a:b :: c:?)
+================================================================================
+
+red:apple :: yellow:?
+  area             score=0.9938
+  airplane         score=0.9930
+  part             score=0.9929
+
+blue:sky :: green:?
+  table            score=0.9940
+  grass            score=0.9939
+  sheep            score=0.9938
+
+white:snow :: brown:?
+  bear             score=0.9950
+  sheep            score=0.9949
+  giraffe          score=0.9945
+
+man:woman :: boy:?
+  snow             score=0.9939
+  frisbee          score=0.9936
+  girl             score=0.9935
+
+boy:girl :: man:?
+  woman            score=0.9931
+  person           score=0.9921
+  grass            score=0.9902
+
+person:hat :: hand:?
+  head             score=0.9861
+  top              score=0.9858
+  nose             score=0.9857
+
+long:short :: tall:?
+  stone            score=0.9917
+  color            score=0.9915
+  round            score=0.9911
+
+one:two :: three:?
+  are              score=0.9917
+  several          score=0.9911
+  four             score=0.9899
+
+dog:walking :: cat:?
+  standing         score=0.9915
+  three            score=0.9911
+  riding           score=0.9910
+
+person:riding :: boat:?
+  holding          score=0.9866
+  sitting          score=0.9858
+  this             score=0.9858
+
+pizza:eating :: umbrella:?
+  carrying         score=0.9887
+  looking          score=0.9884
+  through          score=0.9879
+
+metal:car :: wooden:?
+  bus              score=0.9940
+  train            score=0.9935
+  box              score=0.9934
+
+water:boat :: road:?
+  motorcycle       score=0.9931
+  rock             score=0.9918
+  pizza            score=0.9915
+
+================================================================================
+SEMANTIC CLUSTERS
+================================================================================
+
+'red': blue, brown, green, yellow, orange
+
+'blue': red, yellow, brown, black, green
+
+'green': yellow, red, brown, blue, orange
+
+'man': woman, person, girl, boy, people
+
+'woman': man, girl, boy, snow, person
+
+'child': player, lady, skis, guy, skier
+
+'dog': bird, bear, cat, background, zebra
+
+'cat': bird, dog, zebra, bear, sheep
+
+'horse': snow, dog, bear, bird, building
+
+'bird': dog, cat, zebra, clock, bear
+
+'building': wall, fence, surfboard, bench, background
+
+'house': background, coat, wall, logo, rock
+
+'street': bright, line, spoon, tail, roof
+
+'sky': wall, dog, water, background, coat
+
+'clouds': trees, leaves, sheep, windows, tree
+
+'water': box, wall, snow, lines, table
+
+'grass': fence, building, table, dog, giraffe
+
+'car': motorcycle, bus, train, boat, coat
+
+'bus': boat, car, truck, motorcycle, background
+
+'bicycle': cover, rail, remote, chain, logo
+
+'train': car, bus, plane, surfboard, handle
+
+================================================================================
+
+================================================================================
+VISUALIZING EMBEDDINGS
+================================================================================
+Generating t-SNE plot for the top 300 words...
+(This may take a moment...)
+Saved t-SNE to ./experiments/phase2_dimension/dim_128_tsne.png
