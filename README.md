@@ -1,1 +1,1 @@
-# Multimodal_Contrastive_Alignment
+# Multimodal Contrastive Alignment
