@@ -2,28 +2,11 @@
 
 **Nimun Kaur Bajwa**
 
----
-
 ## Overview
 
 This project produces a single embedding matrix containing the union of the original Visual Genome vocabulary (~455 words) and all 100 CIFAR-100 class labels, yielding a final vocabulary of **523 words**. The approach uses an **Evolutionary Insertion** strategy: a robust Skip-Gram base model is trained first, and missing CIFAR-100 words are then inserted using a Genetic/Evolutionary fitness function.
 
 The best model checkpoint is saved as `best_skipgram_523words.pth` and is loaded by the entry-point function `build_my_embeddings` in `cw2.py`.
-
----
-
-## Repository Structure
-
-```
-.
-├── cw2.py                        # Entry point — contains build_my_embeddings()
-├── best_skipgram_523words.pth    # Best model checkpoint (required for loading)
-├── vg_text/                      # Visual Genome corpus
-│   └── vg_text_cifar.txt         # Augmented corpus with CIFAR-100 word substitutions
-├── report.pdf                    # Full scientific report
-└── README.md
-```
-
 ---
 
 ## Quickstart
